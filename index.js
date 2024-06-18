@@ -4,10 +4,12 @@ const port = 3000
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/a', (req, res) => {
-  res.send('Hello World!')
+app.get("/hola", (req, res) => {
+  res.send('HOLA MUNDO!')
 })
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 }) 
+
+
