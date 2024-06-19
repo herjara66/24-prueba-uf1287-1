@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 app.get('/hola', (req, res) => {
-    res.send("Hello Worldd")
+    res.send("Hello World")
 })
 const sumar = (req, res) => {
     sum1 = numero(req.query.sumando1)
